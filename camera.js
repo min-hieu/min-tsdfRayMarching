@@ -103,6 +103,5 @@ class ArcballCamera {
     this.updateEye();
     this.mvp = this.getMVP();
     this.gl.uniformMatrix4fv(this.mvpLoc, this.gl.FALSE, this.mvp);
-    requestAnimationFrame(() => this.draw());
   }
 }

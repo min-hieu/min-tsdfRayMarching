@@ -366,7 +366,7 @@ const main = async (debug=false) => {
 
   const animationLoop = () => {
     camera.update();
-
+    camera.draw();
     requestAnimationFrame(animationLoop);
   }
 
