@@ -1,6 +1,6 @@
-#min-VolRenderer
+#min-tsdfRayMarching
 
-minimal volume renderer written by Charlie.
+minimal tsdf ray-marching renderer written by Charlie.
 
 This codebase focuses on:
 - WebGL2 APIs
